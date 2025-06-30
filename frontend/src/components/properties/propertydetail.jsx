@@ -327,7 +327,7 @@ const PropertyDetails = () => {
               <div>
                 <div className="bg-blue-50 rounded-lg p-6 mb-6">
                   <p className="text-3xl font-bold text-blue-600 mb-2">
-                    TL{Number(property.price).toLocaleString('en-IN')}
+                    ${Number(property.price).toLocaleString('en-IN')}
                   </p>
                   <p className="text-gray-600">
                     Available for {property.availability}

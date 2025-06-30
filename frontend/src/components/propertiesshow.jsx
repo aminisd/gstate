@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { 
   MapPin, 
-  IndianRupee, 
+  BadgeDollarSign, 
   BedDouble, 
   Bath, 
   Maximize, 
@@ -168,7 +168,7 @@ const PropertyCard = ({ property }) => {
         
         <div className="flex items-center justify-between">
           <div className="flex items-center text-blue-600 font-bold">
-            <IndianRupee className="h-5 w-5 mr-1" />
+            <BadgeDollarSign className="h-5 w-5 mr-1" />
             <span className="text-xl">{Number(property.price).toLocaleString('en-IN')}</span>
           </div>
           

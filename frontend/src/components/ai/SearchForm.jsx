@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
-import { Search, Home, MapPin, IndianRupee, Building } from 'lucide-react';
+import { Search, Home, MapPin, BadgeDollarSign, Building } from 'lucide-react';
 
 const SearchForm = ({ onSearch, isLoading }) => {
   const [searchParams, setSearchParams] = useState({
@@ -98,7 +98,7 @@ const SearchForm = ({ onSearch, isLoading }) => {
           {/* Price Field */}
           <div>
             <label htmlFor="maxPrice" className="flex items-center text-sm font-medium text-gray-700 mb-1.5">
-              <IndianRupee className="w-4 h-4 mr-1.5 text-blue-600" />
+              <BadgeDollarSign className="w-4 h-4 mr-1.5 text-blue-600" />
               Maximum Price (in Crores)
             </label>
             <div className="relative">
@@ -161,8 +161,8 @@ const SearchForm = ({ onSearch, isLoading }) => {
           {/* Price Range Selector */}
           <div>
             <label className="flex items-center text-sm font-medium text-gray-700 mb-2 sm:mb-4">
-              <IndianRupee className="w-4 h-4 mr-1.5 text-blue-600" />
-              Price Range: TL{searchParams.maxPrice} Cr
+              <BadgeDollarSign className="w-4 h-4 mr-1.5 text-blue-600" />
+              Price Range: ${searchParams.maxPrice} Cr
             </label>
             <input
               type="range"
@@ -174,8 +174,8 @@ const SearchForm = ({ onSearch, isLoading }) => {
               className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
             />
             <div className="flex justify-between text-xs text-gray-500 mt-1">
-              <span>TL50L</span>
-              <span>TL50Cr</span>
+              <span>$50L</span>
+              <span>$50Cr</span>
             </div>
           </div>
         </div>

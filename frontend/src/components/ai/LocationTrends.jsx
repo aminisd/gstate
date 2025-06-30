@@ -113,7 +113,7 @@ const LocationTrends = ({ locations }) => {
                     <div>
                       <span className="text-gray-500 block mb-1">Price per sq.ft</span>
                       <span className="font-medium">
-                        {location.price_per_sqft ? `TL${location.price_per_sqft.toLocaleString()}` : 'N/A'}
+                        {location.price_per_sqft ? `$${location.price_per_sqft.toLocaleString()}` : 'N/A'}
                       </span>
                     </div>
                     <div>
@@ -160,7 +160,7 @@ const LocationTrends = ({ locations }) => {
                 <thead>
                   <tr className="bg-gray-50 border-b">
                     <th className="py-3 px-4 text-left font-medium text-gray-700 rounded-tl-lg">Location</th>
-                    <th className="py-3 px-4 text-left font-medium text-gray-700">Price per sq.ft (TL)</th>
+                    <th className="py-3 px-4 text-left font-medium text-gray-700">Price per sq.ft ($)</th>
                     <th className="py-3 px-4 text-left font-medium text-gray-700">Annual Increase (%)</th>
                     <th className="py-3 px-4 text-left font-medium text-gray-700 rounded-tr-lg">Rental Yield (%)</th>
                   </tr>
@@ -181,7 +181,7 @@ const LocationTrends = ({ locations }) => {
                         </div>
                       </td>
                       <td className="py-3 px-4">
-                        {location.price_per_sqft ? `TL${location.price_per_sqft.toLocaleString()}` : 'N/A'}
+                        {location.price_per_sqft ? `$${location.price_per_sqft.toLocaleString()}` : 'N/A'}
                       </td>
                       <td className="py-3 px-4">
                         <div className="flex items-center">

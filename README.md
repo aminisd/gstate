@@ -4,13 +4,8 @@
   </div>
   
   <!-- Animated Background Styling -->
-  <div align="center">
-    <a href="https://real-estate-website-sepia-two.vercel.app" target="_blank">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2563EB&center=true&vCenter=true&random=false&width=500&lines=GState;Modern+Real+Estate+Platform;AI-Powered+Insights" alt="Typing SVG" />
-    </a>
-  </div>
   
-  > ### Premium Real Estate Platform with AI-Powered Insights
+  > ### Premium Real Estate Platform
   
   [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=20232A)](https://reactjs.org/)
   [![Node.js](https://img.shields.io/badge/Node.js-16+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=20232A)](https://nodejs.org/)
@@ -108,12 +103,6 @@
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens)
 ![Nodemailer](https://img.shields.io/badge/Nodemailer-30B980?style=flat-square&logo=nodemailer)
 
-### AI Services
-![Azure AI](https://img.shields.io/badge/Azure_AI-0078D4?style=flat-square&logo=microsoftazure)
-![Firebase](https://img.shields.io/badge/FirecrawlJS-FFA500?style=flat-square&logo=firebase)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FF9A00?style=flat-square&logo=huggingface)
-
 ### DevOps & Deployment
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel)
@@ -123,14 +112,14 @@
 
 ## 📋 Project Overview
 
-GState is a modern real estate platform that combines traditional property listing features with cutting-edge AI technology. The platform helps users find their ideal properties while providing valuable investment insights through machine learning algorithms.
+GState is a modern real estate platform that combines traditional property listing features. The platform helps users find their ideal properties while providing valuable investment insights through machine learning algorithms.
 
 The application consists of three main parts:
-- **Frontend:** User-facing website with property listings and AI analysis tools
+- **Frontend:** User-facing website with property listings
 - **Admin Dashboard:** Comprehensive management interface for properties and users
-- **Backend API:** Robust Express server with AI-powered data processing
+- **Backend API:** Robust Express server 
 
-Key differentiators include AI-powered property recommendations, real-time market analysis, and investment opportunity identification, all presented with fluid animations for an exceptional user experience.
+Key differentiators include real-time market analysis, and investment opportunity identification, all presented with fluid animations for an exceptional user experience.
 
 ## 🚀 Getting Started
 
@@ -183,7 +172,6 @@ VITE_API_BASE_URL=http://localhost:4000
 VITE_BACKEND_URL=http://localhost:4000
 ```
 
-> 💡 **Note:** For testing without AI services, you can set dummy API keys. The core functionality will work, but AI features will return mock data.
 </details>
 
 <details>
@@ -317,14 +305,6 @@ GState offers a sophisticated property search system with multiple filtering opt
 - **Saved search preferences** for registered users
 
 
-The platform provides valuable insights using multiple AI models:
-
-- **Price trend forecasting** for different neighborhoods
-- **Rental yield calculations** based on historical data
-- **Investment opportunity scoring** with ROI predictions
-- **Neighborhood comparison** with multiple metrics
-- **Personalized property recommendations**
-
 All data visualizations feature smooth animations and interactive elements for better understanding.
 
 ### User Account Management
@@ -344,7 +324,6 @@ GState includes a newsletter system for property updates and market trends:
 
 - **Subscription management** via user profile
 - **Email preference center** for customizing update frequency
-- **Market report delivery** with AI-generated insights
 - **One-click unsubscribe** option in all emails
 - **GDPR compliant** data storage and processing
 
@@ -370,13 +349,6 @@ GState includes a newsletter system for property updates and market trends:
 ### Image Upload Issues
 - **Images Not Uploading**: Check ImageKit credentials and connectivity
 - **File Size Errors**: Reduce image size to under 5MB
-
-### AI Feature Limitations
-- **AI Analysis Not Working**: Verify API keys for Azure and FirecrawlJS
-- **Empty Recommendations**: The system needs at least 10 properties in database for meaningful recommendations
-
-For additional help, [open an issue](https://github.com/99Gssabek/gstate/issues/new) with detailed error information.
-</details>
 
 ## 🖥️ Screenshots
 
